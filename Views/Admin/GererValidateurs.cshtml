@@ -1,0 +1,60 @@
+﻿@{
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<h1>Manage Validators</h1>
+
+@if (Model.Count == 0)
+{
+    <p>No validators yet...</p>
+}
+else
+{
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Email</th>
+                <th>Phone Number</th>
+                <th>Assigned Consultants</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var validateur in Model)
+            {
+                <tr>
+                    <td>@validateur.Email</td>
+                    <td>@validateur.PhoneNumber</td>
+                    <td>
+                        @if (validateur.Consultants.Count > 0)
+                        {
+                            <ul>
+                                @foreach (var consultant in validateur.Consultants)
+                                {
+                                    <li>@consultant.Email</li>
+                                }
+                            </ul>
+                        }
+                        else
+                        {
+                            <span>No consultants assigned.</span>
+                        }
+                    </td>
+                    <td>
+                        <form asp-action="UpdateValidateur" method="get" style="display: inline;">
+                            <input type="hidden" name="id" value="@validateur.Id" />
+                            <button class="btn btn-primary">Update</button>
+                        </form>
+                        <form asp-action="DeleteValidateur" method="post" style="display: inline;">
+                            <input type="hidden" name="id" value="@validateur.Id" />
+                            <button class="btn btn-danger">Delete</button>
+                        </form>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+<a asp-action="CreerValidateur" class="btn btn-success">Create Validator</a>
+
+

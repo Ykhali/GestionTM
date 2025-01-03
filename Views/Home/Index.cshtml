@@ -1,0 +1,43 @@
+﻿@{
+    ViewData["Title"] = "Home";
+}
+
+<h1>Welcome to GestionTM</h1>
+
+@if (ViewBag.Message != null)
+{
+    <p style="color: red;">@ViewBag.Message</p>
+}
+
+<div style="margin-bottom: 20px;">
+    <button onclick="showForm('register')">Register</button>
+    <button onclick="showForm('login')">Login</button>
+</div>
+
+<div id="registerForm" style="display: none;">
+    <h2>Register</h2>
+    <form method="post" asp-action="Register">
+        <input type="email" name="email" placeholder="Email" required />
+        <input type="password" name="password" placeholder="Password" required />
+        <input type="text" name="phoneNumber" placeholder="Phone Number" required />
+        <button type="submit">Register</button>
+    </form>
+</div>
+
+<div id="loginForm" style="display: none;">
+    <h2>Login</h2>
+    <form method="post" asp-action="Login">
+        <input type="email" name="email" placeholder="Email" required />
+        <input type="password" name="password" placeholder="Password" required />
+        <button type="submit">Login</button>
+    </form>
+</div>
+
+<script>
+    function showForm(formType) {
+        document.getElementById('registerForm').style.display = formType === 'register' ? 'block' : 'none';
+        document.getElementById('loginForm').style.display = formType === 'login' ? 'block' : 'none';
+    }
+</script>
+
+

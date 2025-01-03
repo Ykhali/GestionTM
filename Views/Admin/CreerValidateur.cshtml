@@ -1,0 +1,34 @@
+﻿@{
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<h1>Create Validator</h1>
+
+<form asp-action="CreerValidateur" method="post">
+    <div class="form-group">
+        <input type="email" name="Email" class="form-control" placeholder="Email" required />
+    </div>
+    <div class="form-group">
+        <input type="password" name="Password" class="form-control" placeholder="Password (Must start with VV)" required />
+    </div>
+    <div class="form-group">
+        <input type="text" name="PhoneNumber" class="form-control" placeholder="Phone Number" required />
+    </div>
+    <div class="form-group">
+        <label for="Consultants">Assign Consultants:</label>
+        <select name="consultantIds" multiple class="form-control">
+            @foreach (var consultant in ViewBag.Consultants)
+            {
+                <option value="@consultant.Id">@consultant.Email</option>
+            }
+        </select>
+    </div>
+    <button type="submit" class="btn btn-primary">Create</button>
+</form>
+@if (ViewBag.Message != null)
+{
+    <p style="color: red;">@ViewBag.Message</p>
+}
+
+}
+

@@ -1,0 +1,26 @@
+﻿@model GestionTM.Models.UpdateValidateurViewModel
+
+@{
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<h1>Update Validator</h1>
+
+<form asp-action="UpdateValidateur" method="post">
+    <input type="hidden" name="Validateur.Id" value="@Model.Validateur.Id" />
+    <div class="form-group">
+        <input type="email" name="Email" value="@Model.Validateur.Email" class="form-control" required />
+    </div>
+    <div class="form-group">
+        <input type="password" name="Password" value="@Model.Validateur.Password" class="form-control" required />
+    </div>
+    <div class="form-group">
+        <input type="text" name="PhoneNumber" value="@Model.Validateur.PhoneNumber" class="form-control" required />
+    </div>
+    <div class="form-group">
+        @Html.DropDownListFor(m => m.Validateur.Consultants, Model.ConsultantSelectList, "None", new { multiple = "multiple", @class = "form-control" })
+    </div>
+    <button type="submit" class="btn btn-primary">Update</button>
+</form>
+
+

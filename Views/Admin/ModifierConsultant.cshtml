@@ -1,0 +1,21 @@
+﻿@model GestionTM.Models.ModifierConsultantViewModel
+
+@{
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+<h1>Modify Consultant</h1>
+<form asp-action="UpdateConsultant">
+    <input type="hidden" name="Consultant.Id" value="@Model.Consultant.Id" />
+    <div class="form-group">
+        <input type="email" name="Consultant.Email" value="@Model.Consultant.Email" class="form-control" required />
+    </div>
+    <div class="form-group">
+        <input type="text" name="Consultant.PhoneNumber" value="@Model.Consultant.PhoneNumber" class="form-control" required />
+    </div>
+    <div class="form-group">
+        @Html.DropDownListFor(m => m.Consultant.ValidateurId, Model.ValidatorSelectList, "None", new { @class = "form-control" })
+    </div>
+    <button type="submit" class="btn btn-primary">Update</button>
+</form>
+
+

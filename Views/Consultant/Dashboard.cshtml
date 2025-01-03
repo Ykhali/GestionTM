@@ -1,0 +1,16 @@
+﻿
+@{
+    Layout = "~/Views/Shared/_ConsultantLayout.cshtml";
+}
+
+<h2>@Model.Email's Dashboard</h2>
+
+<div>
+    <h3>Timesheet Statistics</h3>
+    <p>Number of Timesheet created: @ViewBag.TimesheetsCreated</p>
+    <p>Number of Timesheet submited: @ViewBag.TimesheetsSubmited</p>
+    <p>Number of Timesheet accepted: @ViewBag.TimesheetsAccepted</p>
+    <p>Number of Timesheet refused: @ViewBag.TimesheetsRefused</p>
+</div>
+
+<a href="@Url.Action("Home", "Consultant")">Back to Home</a>

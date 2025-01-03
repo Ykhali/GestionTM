@@ -1,0 +1,118 @@
+﻿@model GestionTM.Models.Timesheet
+@{
+    Layout = "~/Views/Shared/_ConsultantLayout.cshtml";
+}
+
+<div class="container mt-5">
+    <div class="card shadow">
+        <div class="card-header bg-dark text-white">
+            <h2 class="text-center">Créer un Timesheet</h2>
+        </div>
+        <div class="card-body bg-light">
+            <form asp-action="CreerTimesheet" method="post">
+                @Html.AntiForgeryToken()
+
+                <div class="row mb-4">
+                    <div class="col-md-6">
+                        <label asp-for="Description" class="form-label">Description</label>
+                        <input asp-for="Description" class="form-control" placeholder="Entrez une description" />
+                        <span asp-validation-for="Description" class="text-danger"></span>
+                    </div>
+                    <div class="col-md-6">
+                        <label asp-for="Status" class="form-label">Statut</label>
+                        <select asp-for="Status" class="form-select">
+                            <option value="Submitted">Soumis</option>
+                            <option value="Accepted">Accepté</option>
+                            <option value="Refusé">Refusé</option>
+                        </select>
+                        <span asp-validation-for="Status" class="text-danger"></span>
+                    </div>
+                </div>
+                <div class="border p-4 rounded bg-white mb-4">
+                    <h4 class="mb-3">Détails des lignes de timesheet</h4>
+                    <table class="table table-bordered table-striped">
+                        <thead class="table-dark">
+                            <tr>
+                                <th>Date</th>
+                                <th>Heures Travaillées</th>
+                                <th>Nom du Consultant</th>
+                                <th>Nom du Validateur</th>
+                                <th>Action</th>
+                            </tr>
+                        </thead>
+                        <tbody id="timesheetLines">
+                            <!-- Les lignes dynamiques seront ajoutées ici -->
+                        </tbody>
+                    </table>
+                    <button type="button" class="btn btn-secondary" id="addLine">Ajouter une ligne</button>
+                </div>
+
+                <div class="text-end">
+                    <input type="submit" value="Créer" class="btn btn-success btn-lg" />
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <script>
+        document.getElementById('addLine').addEventListener('click', function () {
+            const table = document.getElementById('timesheetLines');
+            const rowIndex = table.rows.length;
+            const newRow = document.createElement('tr');
+
+            newRow.innerHTML = `
+                                <td><input type="date" class="form-control" name="TimesheetLines[${rowIndex}].Date" required /></td>
+                                <td><input type="number" class="form-control" name="TimesheetLines[${rowIndex}].HoursWorked" min="1" max="8" required /></td>
+                                <td>
+                                    <select class="form-select" name="TimesheetLines[${rowIndex}].ConsultantId" required>
+                                        <option value="" disabled selected>Sélectionnez un consultant</option>
+        @if (ViewBag.Consultants != null && ViewBag.Consultants.Count > 0)
+        {
+            foreach (var consultant in ViewBag.Consultants)
+            {
+                 <option value="@consultant.Id">@consultant.Email</option>
+            }
+        }
+        else
+        {
+                <option disabled>Aucun consultant disponible</option>
+        }
+                                    </select>
+                                </td>
+                                <td>
+                                    <select class="form-select" name="TimesheetLines[${rowIndex}].ValidateurId" required>
+                                        <option value="" disabled selected>Sélectionnez un validateur</option>
+        @if (ViewBag.Validateurs != null && ViewBag.Validateurs.Count > 0)
+        {
+            foreach (var validateur in ViewBag.Validateurs)
+            {
+                                                                <option value="@validateur.Id">@validateur.Email</option>
+            }
+        }
+        else
+        {
+                                                    <option disabled>Aucun validateur disponible</option>
+        }
+                                    </select>
+                                </td>
+                                <td><button type="button" class="btn btn-danger" onclick="this.closest('tr').remove(); renumberLines();">Supprimer</button></td>
+                            `;
+
+            table.appendChild(newRow);
+        });
+
+        function renumberLines() {
+            const rows = document.querySelectorAll('#timesheetLines tr');
+            rows.forEach((row, index) => {
+                row.querySelectorAll('input, select').forEach(input => {
+                    const name = input.getAttribute('name');
+                    if (name) {
+                        input.setAttribute('name', name.replace(/\[\d+\]/, `[${index}]`));
+                    }
+                });
+            });
+        }
+    </script>
+}

@@ -1,0 +1,45 @@
+﻿@{
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+<h1>Manage Consultants</h1>
+
+@if (Model.Count == 0)
+{
+    <p>No consultants yet...</p>
+}
+else
+{
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Email</th>
+                <th>Phone Number</th>
+                <th>Validator</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var consultant in Model)
+            {
+                <tr>
+                    <td>@consultant.Email</td>
+                    <td>@consultant.PhoneNumber</td>
+                    <td>@consultant.Validateur?.Email ?? "Not Assigned"</td>
+                    <td>
+                        <form asp-action="ModifierConsultant" method="get" style="display: inline;">
+                            <input type="hidden" name="id" value="@consultant.Id" />
+                            <button class="btn btn-primary">Update</button>
+                        </form>
+                        <form asp-action="DeleteConsultant" method="post" style="display: inline;">
+                            <input type="hidden" name="id" value="@consultant.Id" />
+                            <button class="btn btn-danger">Delete</button>
+                        </form>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+
+<a asp-action="CreerConsultant" class="btn btn-success">Create Consultant</a>
+
