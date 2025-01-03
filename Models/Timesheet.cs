@@ -10,7 +10,7 @@ namespace GestionTM.Models
 
         public int ConsultantId { get; set; }
         public Consultant Consultant { get; set; }
-        public ICollection<TimesheetLine> TimesheetLines { get; set; }
+        public List<TimesheetLine> TimesheetLines { get; set; } = new List<TimesheetLine>();
     }
 }
 

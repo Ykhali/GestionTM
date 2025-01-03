@@ -1,4 +1,4 @@
-﻿
+﻿<!--
 @{
     Layout = "~/Views/Shared/_ConsultantLayout.cshtml";
 }
@@ -13,4 +13,24 @@
     <p>Number of Timesheet refused: @ViewBag.TimesheetsRefused</p>
 </div>
 
+<a href="@Url.Action("Home", "Consultant")">Back to Home</a>-->
+@model GestionTM.Models.Consultant
+@{
+    Layout = "~/Views/Shared/_ConsultantLayout.cshtml";
+}
+
+<h2>@Model.Email's Dashboard</h2>
+
+<div>
+    <h3>Timesheet Statistics</h3>
+    <p>Created: @ViewBag.Stats.Created</p>
+    <p>Submitted: @ViewBag.Stats.Submitted</p>
+    <p>Accepted: @ViewBag.Stats.Accepted</p>
+    <p>Refused: @ViewBag.Stats.Refused</p>
+</div>
+
 <a href="@Url.Action("Home", "Consultant")">Back to Home</a>
+
+
+
+
