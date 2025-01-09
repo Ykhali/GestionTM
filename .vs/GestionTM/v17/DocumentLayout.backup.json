@@ -3,60 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\khalid_youssef\\Desktop\\GestionTM\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\khalid_youssef\\Desktop\\GestionTM\\Migrations\\20250103142129_third.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Migrations\\20250103142129_third.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\khalid_youssef\\Desktop\\GestionTM\\Migrations\\20250109205139_first.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Migrations\\20250109205139_first.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{02B5BFBD-FC88-4BD0-8FE9-654B008ACD1D}|GestionTM.csproj|c:\\users\\khalid_youssef\\desktop\\gestiontm\\models\\timesheet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{02B5BFBD-FC88-4BD0-8FE9-654B008ACD1D}|GestionTM.csproj|solutionrelative:models\\timesheet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{02B5BFBD-FC88-4BD0-8FE9-654B008ACD1D}|GestionTM.csproj|c:\\users\\khalid_youssef\\desktop\\gestiontm\\views\\consultant\\updatetimesheet.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{02B5BFBD-FC88-4BD0-8FE9-654B008ACD1D}|GestionTM.csproj|solutionrelative:views\\consultant\\updatetimesheet.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{02B5BFBD-FC88-4BD0-8FE9-654B008ACD1D}|GestionTM.csproj|c:\\users\\khalid_youssef\\desktop\\gestiontm\\controllers\\consultantcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{02B5BFBD-FC88-4BD0-8FE9-654B008ACD1D}|GestionTM.csproj|solutionrelative:controllers\\consultantcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{02B5BFBD-FC88-4BD0-8FE9-654B008ACD1D}|GestionTM.csproj|c:\\users\\khalid_youssef\\desktop\\gestiontm\\views\\consultant\\gerertimesheets.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{02B5BFBD-FC88-4BD0-8FE9-654B008ACD1D}|GestionTM.csproj|solutionrelative:views\\consultant\\gerertimesheets.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{02B5BFBD-FC88-4BD0-8FE9-654B008ACD1D}|GestionTM.csproj|c:\\users\\khalid_youssef\\desktop\\gestiontm\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{02B5BFBD-FC88-4BD0-8FE9-654B008ACD1D}|GestionTM.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{02B5BFBD-FC88-4BD0-8FE9-654B008ACD1D}|GestionTM.csproj|c:\\users\\khalid_youssef\\desktop\\gestiontm\\views\\consultant\\dashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{02B5BFBD-FC88-4BD0-8FE9-654B008ACD1D}|GestionTM.csproj|solutionrelative:views\\consultant\\dashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{02B5BFBD-FC88-4BD0-8FE9-654B008ACD1D}|GestionTM.csproj|c:\\users\\khalid_youssef\\desktop\\gestiontm\\views\\shared\\_consultantlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{02B5BFBD-FC88-4BD0-8FE9-654B008ACD1D}|GestionTM.csproj|solutionrelative:views\\shared\\_consultantlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{02B5BFBD-FC88-4BD0-8FE9-654B008ACD1D}|GestionTM.csproj|c:\\users\\khalid_youssef\\desktop\\gestiontm\\views\\consultant\\creertimesheet.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{02B5BFBD-FC88-4BD0-8FE9-654B008ACD1D}|GestionTM.csproj|solutionrelative:views\\consultant\\creertimesheet.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{02B5BFBD-FC88-4BD0-8FE9-654B008ACD1D}|GestionTM.csproj|c:\\users\\khalid_youssef\\desktop\\gestiontm\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{02B5BFBD-FC88-4BD0-8FE9-654B008ACD1D}|GestionTM.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{02B5BFBD-FC88-4BD0-8FE9-654B008ACD1D}|GestionTM.csproj|c:\\users\\khalid_youssef\\desktop\\gestiontm\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{02B5BFBD-FC88-4BD0-8FE9-654B008ACD1D}|GestionTM.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{02B5BFBD-FC88-4BD0-8FE9-654B008ACD1D}|GestionTM.csproj|c:\\users\\khalid_youssef\\desktop\\gestiontm\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{02B5BFBD-FC88-4BD0-8FE9-654B008ACD1D}|GestionTM.csproj|solutionrelative:data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{02B5BFBD-FC88-4BD0-8FE9-654B008ACD1D}|GestionTM.csproj|c:\\users\\khalid_youssef\\desktop\\gestiontm\\views\\shared\\_adminlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{02B5BFBD-FC88-4BD0-8FE9-654B008ACD1D}|GestionTM.csproj|solutionrelative:views\\shared\\_adminlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{02B5BFBD-FC88-4BD0-8FE9-654B008ACD1D}|GestionTM.csproj|c:\\users\\khalid_youssef\\desktop\\gestiontm\\views\\admin\\creerconsultant.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{02B5BFBD-FC88-4BD0-8FE9-654B008ACD1D}|GestionTM.csproj|solutionrelative:views\\admin\\creerconsultant.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{02B5BFBD-FC88-4BD0-8FE9-654B008ACD1D}|GestionTM.csproj|c:\\users\\khalid_youssef\\desktop\\gestiontm\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{02B5BFBD-FC88-4BD0-8FE9-654B008ACD1D}|GestionTM.csproj|solutionrelative:controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{02B5BFBD-FC88-4BD0-8FE9-654B008ACD1D}|GestionTM.csproj|c:\\users\\khalid_youssef\\desktop\\gestiontm\\models\\admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{02B5BFBD-FC88-4BD0-8FE9-654B008ACD1D}|GestionTM.csproj|solutionrelative:models\\admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -65,194 +25,66 @@
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedHeight": 113,
-          "SelectedChildIndex": 0,
+          "DockedHeight": 196,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Timesheet.cs",
-              "DocumentMoniker": "C:\\Users\\khalid_youssef\\Desktop\\GestionTM\\Models\\Timesheet.cs",
-              "RelativeDocumentMoniker": "Models\\Timesheet.cs",
-              "ToolTip": "C:\\Users\\khalid_youssef\\Desktop\\GestionTM\\Models\\Timesheet.cs",
-              "RelativeToolTip": "Models\\Timesheet.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAABcAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-03T14:20:39.806Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "HomeController.cs",
-              "DocumentMoniker": "C:\\Users\\khalid_youssef\\Desktop\\GestionTM\\Controllers\\HomeController.cs",
-              "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
-              "ToolTip": "C:\\Users\\khalid_youssef\\Desktop\\GestionTM\\Controllers\\HomeController.cs",
-              "RelativeToolTip": "Controllers\\HomeController.cs",
-              "ViewState": "AgIAAJMAAAAAAAAAAAAowLkAAAAaAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-03T14:08:40.268Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "GererTimesheets.cshtml",
-              "DocumentMoniker": "C:\\Users\\khalid_youssef\\Desktop\\GestionTM\\Views\\Consultant\\GererTimesheets.cshtml",
-              "RelativeDocumentMoniker": "Views\\Consultant\\GererTimesheets.cshtml",
-              "ToolTip": "C:\\Users\\khalid_youssef\\Desktop\\GestionTM\\Views\\Consultant\\GererTimesheets.cshtml",
-              "RelativeToolTip": "Views\\Consultant\\GererTimesheets.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEYAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-01-03T14:02:51.989Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 2,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\khalid_youssef\\Desktop\\GestionTM\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "C:\\Users\\khalid_youssef\\Desktop\\GestionTM\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAC0AAAAAAAAAAAAQwFIAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABwAAAAAAAAAAAAowDQAAAAHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-03T13:25:11.389Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Dashboard.cshtml",
-              "DocumentMoniker": "C:\\Users\\khalid_youssef\\Desktop\\GestionTM\\Views\\Consultant\\Dashboard.cshtml",
-              "RelativeDocumentMoniker": "Views\\Consultant\\Dashboard.cshtml",
-              "ToolTip": "C:\\Users\\khalid_youssef\\Desktop\\GestionTM\\Views\\Consultant\\Dashboard.cshtml",
-              "RelativeToolTip": "Views\\Consultant\\Dashboard.cshtml",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAIwB0AAAAGAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-01-02T21:50:49.434Z",
+              "WhenOpened": "2025-01-09T20:41:19.557Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "UpdateTimesheet.cshtml",
-              "DocumentMoniker": "C:\\Users\\khalid_youssef\\Desktop\\GestionTM\\Views\\Consultant\\UpdateTimesheet.cshtml",
-              "RelativeDocumentMoniker": "Views\\Consultant\\UpdateTimesheet.cshtml",
-              "ToolTip": "C:\\Users\\khalid_youssef\\Desktop\\GestionTM\\Views\\Consultant\\UpdateTimesheet.cshtml",
-              "RelativeToolTip": "Views\\Consultant\\UpdateTimesheet.cshtml",
-              "ViewState": "AgIAABkAAAAAAAAAAAAIwCQAAAAYAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-01-03T14:19:48.914Z",
+              "DocumentIndex": 1,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\khalid_youssef\\Desktop\\GestionTM\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\khalid_youssef\\Desktop\\GestionTM\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAgwA4AAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-01-09T11:26:32.722Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "ConsultantController.cs",
-              "DocumentMoniker": "C:\\Users\\khalid_youssef\\Desktop\\GestionTM\\Controllers\\ConsultantController.cs",
-              "RelativeDocumentMoniker": "Controllers\\ConsultantController.cs",
-              "ToolTip": "C:\\Users\\khalid_youssef\\Desktop\\GestionTM\\Controllers\\ConsultantController.cs",
-              "RelativeToolTip": "Controllers\\ConsultantController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAIAAAAAAAAAA==",
+              "Title": "Admin.cs",
+              "DocumentMoniker": "C:\\Users\\khalid_youssef\\Desktop\\GestionTM\\Models\\Admin.cs",
+              "RelativeDocumentMoniker": "Models\\Admin.cs",
+              "ToolTip": "C:\\Users\\khalid_youssef\\Desktop\\GestionTM\\Models\\Admin.cs",
+              "RelativeToolTip": "Models\\Admin.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-01T18:33:20.846Z",
+              "WhenOpened": "2025-01-03T14:46:40.114Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "_AdminLayout.cshtml",
-              "DocumentMoniker": "C:\\Users\\khalid_youssef\\Desktop\\GestionTM\\Views\\Shared\\_AdminLayout.cshtml",
-              "RelativeDocumentMoniker": "Views\\Shared\\_AdminLayout.cshtml",
-              "ToolTip": "C:\\Users\\khalid_youssef\\Desktop\\GestionTM\\Views\\Shared\\_AdminLayout.cshtml",
-              "RelativeToolTip": "Views\\Shared\\_AdminLayout.cshtml",
-              "ViewState": "AgIAAB4AAAAAAAAAAAAAABUAAAAdAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-01-01T20:53:09.797Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "AppDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\khalid_youssef\\Desktop\\GestionTM\\Data\\AppDbContext.cs",
-              "RelativeDocumentMoniker": "Data\\AppDbContext.cs",
-              "ToolTip": "C:\\Users\\khalid_youssef\\Desktop\\GestionTM\\Data\\AppDbContext.cs",
-              "RelativeToolTip": "Data\\AppDbContext.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAAQwD4AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-01T20:44:51.989Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "CreerTimesheet.cshtml",
-              "DocumentMoniker": "C:\\Users\\khalid_youssef\\Desktop\\GestionTM\\Views\\Consultant\\CreerTimesheet.cshtml",
-              "RelativeDocumentMoniker": "Views\\Consultant\\CreerTimesheet.cshtml",
-              "ToolTip": "C:\\Users\\khalid_youssef\\Desktop\\GestionTM\\Views\\Consultant\\CreerTimesheet.cshtml",
-              "RelativeToolTip": "Views\\Consultant\\CreerTimesheet.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-01-01T18:49:35.445Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "_ConsultantLayout.cshtml",
-              "DocumentMoniker": "C:\\Users\\khalid_youssef\\Desktop\\GestionTM\\Views\\Shared\\_ConsultantLayout.cshtml",
-              "RelativeDocumentMoniker": "Views\\Shared\\_ConsultantLayout.cshtml",
-              "ToolTip": "C:\\Users\\khalid_youssef\\Desktop\\GestionTM\\Views\\Shared\\_ConsultantLayout.cshtml",
-              "RelativeToolTip": "Views\\Shared\\_ConsultantLayout.cshtml",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAADsAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-01-01T18:46:16.03Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "CreerConsultant.cshtml",
-              "DocumentMoniker": "C:\\Users\\khalid_youssef\\Desktop\\GestionTM\\Views\\Admin\\CreerConsultant.cshtml",
-              "RelativeDocumentMoniker": "Views\\Admin\\CreerConsultant.cshtml",
-              "ToolTip": "C:\\Users\\khalid_youssef\\Desktop\\GestionTM\\Views\\Admin\\CreerConsultant.cshtml",
-              "RelativeToolTip": "Views\\Admin\\CreerConsultant.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-01-01T18:42:06.398Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "AdminController.cs",
-              "DocumentMoniker": "C:\\Users\\khalid_youssef\\Desktop\\GestionTM\\Controllers\\AdminController.cs",
-              "RelativeDocumentMoniker": "Controllers\\AdminController.cs",
-              "ToolTip": "C:\\Users\\khalid_youssef\\Desktop\\GestionTM\\Controllers\\AdminController.cs",
-              "RelativeToolTip": "Controllers\\AdminController.cs",
-              "ViewState": "AgIAAC8AAAAAAAAAAAAIwBUBAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-01T18:29:11.454Z"
             }
           ]
         },
         {
-          "DockedHeight": 117,
+          "DockedHeight": 34,
           "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "20250103142129_third.cs",
-              "DocumentMoniker": "C:\\Users\\khalid_youssef\\Desktop\\GestionTM\\Migrations\\20250103142129_third.cs",
-              "RelativeDocumentMoniker": "Migrations\\20250103142129_third.cs",
-              "ToolTip": "C:\\Users\\khalid_youssef\\Desktop\\GestionTM\\Migrations\\20250103142129_third.cs",
-              "RelativeToolTip": "Migrations\\20250103142129_third.cs",
+              "Title": "20250109205139_first.cs",
+              "DocumentMoniker": "C:\\Users\\khalid_youssef\\Desktop\\GestionTM\\Migrations\\20250109205139_first.cs",
+              "RelativeDocumentMoniker": "Migrations\\20250109205139_first.cs",
+              "ToolTip": "C:\\Users\\khalid_youssef\\Desktop\\GestionTM\\Migrations\\20250109205139_first.cs",
+              "RelativeToolTip": "Migrations\\20250109205139_first.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-03T14:21:29.782Z",
+              "WhenOpened": "2025-01-09T20:51:39.657Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
             },
             {
               "$type": "Bookmark",
@@ -261,6 +93,10 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
             }
           ]
         }
