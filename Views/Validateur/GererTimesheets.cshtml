@@ -1,0 +1,55 @@
+﻿@model IEnumerable<GestionTM.Models.Timesheet>
+
+@{
+    Layout = "~/Views/Shared/_ValidateurLayout.cshtml";
+}
+
+<h2>Manage Submitted Timesheets</h2>
+
+@foreach (var timesheet in Model)
+{
+    <div class="card mb-3">
+        <div class="card-header">
+            <strong>Consultant:</strong> @timesheet.Consultant.Email
+            <br />
+            <strong>Description:</strong> @timesheet.Description
+            <br />
+            <strong>Status:</strong> @timesheet.Status
+        </div>
+        <div class="card-body">
+            <h5>Timesheet Lines:</h5>
+            <table class="table table-bordered">
+                <thead>
+                    <tr>
+                        <th>Line ID</th>
+                        <th>Date</th>
+                        <th>Hours Worked</th>
+                        
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var line in timesheet.TimesheetLines)
+                    {
+                        <tr>
+                            <td>@line.Id</td>
+                            <td>@line.Date.ToShortDateString()</td>
+                            <td>@line.HoursWorked</td>
+                            
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+        <div class="card-footer">
+            <form asp-action="Accept" asp-controller="Validateur" asp-route-id="@timesheet.Id" method="post" style="display:inline;">
+                <button type="submit" class="btn btn-success">Accept</button>
+            </form>
+            <form asp-action="Refuse" asp-controller="Validateur" asp-route-id="@timesheet.Id" method="post" style="display:inline;">
+                <button type="submit" class="btn btn-danger">Refuse</button>
+            </form>
+        </div>
+    </div>
+}
+
+
+

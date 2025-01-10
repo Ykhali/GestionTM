@@ -1,0 +1,34 @@
+﻿@{
+    Layout = "~/Views/Shared/_ValidateurLayout.cshtml";
+    var dashboardData = ViewBag.DashboardData;
+}
+
+<h2>Validateur Dashboard</h2>
+
+<div class="row">
+    <div class="col-md-4">
+        <div class="card text-white bg-primary mb-3">
+            <div class="card-header">Submitted Timesheets</div>
+            <div class="card-body">
+                <h5 class="card-title">@dashboardData.SubmittedCount</h5>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-4">
+        <div class="card text-white bg-success mb-3">
+            <div class="card-header">Accepted Timesheets</div>
+            <div class="card-body">
+                <h5 class="card-title">@dashboardData.AcceptedCount</h5>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-4">
+        <div class="card text-white bg-danger mb-3">
+            <div class="card-header">Refused Timesheets</div>
+            <div class="card-body">
+                <h5 class="card-title">@dashboardData.RefusedCount</h5>
+            </div>
+        </div>
+    </div>
+</div>
+
