@@ -9,7 +9,33 @@
     <link rel="stylesheet" href="~/GestionTM.styles.css" asp-append-version="true" />
 </head>
 <body>
-    <header>
+    <style>
+        /*body {
+            font-family: Arial, sans-serif;
+            background-image: url("../Assets/employe.jpg");
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }*/
+        body {
+            font-family: Arial, sans-serif;
+            background-image: url('../Assets/employe.jpg');
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            margin: 0;
+            padding: 0;
+            position: relative; /* Nécessaire pour que le pseudo-élément soit positionné correctement */
+        }
+
+            
+    </style>
+    <!--<header>
         <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
             <div class="container-fluid">
                 <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">GestionTM</a>
@@ -29,18 +55,20 @@
                 </div>
             </div>
         </nav>
-    </header>
+    </header>-->
     <div class="container">
-        <main role="main" class="pb-3">
+        <main style="text-align:center;margin-top:30%;" role="main" class="pb-3">
             @RenderBody()
+
+			
         </main>
     </div>
 
-    <footer class="border-top footer text-muted">
+   <!-- <footer class="border-top footer text-muted">
         <div class="container">
             &copy; 2024 - GestionTM - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
         </div>
-    </footer>
+    </footer>-->
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <script src="~/js/site.js" asp-append-version="true"></script>

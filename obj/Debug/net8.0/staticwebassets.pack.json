@@ -2,7 +2,11 @@
   "Files": [
     {
       "Id": "C:\\Users\\khalid_youssef\\Desktop\\GestionTM\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\GestionTM.bundle.scp.css",
-      "PackagePath": "staticwebassets\\GestionTM.bundle.scp.css"
+      "PackagePath": "staticwebassets\\GestionTM.8ct9czcbj9.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\khalid_youssef\\Desktop\\GestionTM\\wwwroot\\Assets\\employe.jpg",
+      "PackagePath": "staticwebassets\\Assets\\employe.jpg"
     },
     {
       "Id": "C:\\Users\\khalid_youssef\\Desktop\\GestionTM\\wwwroot\\css\\site.css",
@@ -243,6 +247,10 @@
     {
       "Id": "C:\\Users\\khalid_youssef\\Desktop\\GestionTM\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.GestionTM.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
     },
     {
       "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.GestionTM.Microsoft.AspNetCore.StaticWebAssets.props",

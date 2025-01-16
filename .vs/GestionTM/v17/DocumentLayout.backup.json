@@ -3,20 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\khalid_youssef\\Desktop\\GestionTM\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{02B5BFBD-FC88-4BD0-8FE9-654B008ACD1D}|GestionTM.csproj|c:\\users\\khalid_youssef\\desktop\\gestiontm\\views\\shared\\_validateurlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{02B5BFBD-FC88-4BD0-8FE9-654B008ACD1D}|GestionTM.csproj|solutionrelative:views\\shared\\_validateurlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{02B5BFBD-FC88-4BD0-8FE9-654B008ACD1D}|GestionTM.csproj|c:\\users\\khalid_youssef\\desktop\\gestiontm\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{02B5BFBD-FC88-4BD0-8FE9-654B008ACD1D}|GestionTM.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{02B5BFBD-FC88-4BD0-8FE9-654B008ACD1D}|GestionTM.csproj|c:\\users\\khalid_youssef\\desktop\\gestiontm\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{02B5BFBD-FC88-4BD0-8FE9-654B008ACD1D}|GestionTM.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{02B5BFBD-FC88-4BD0-8FE9-654B008ACD1D}|GestionTM.csproj|c:\\users\\khalid_youssef\\desktop\\gestiontm\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{02B5BFBD-FC88-4BD0-8FE9-654B008ACD1D}|GestionTM.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{02B5BFBD-FC88-4BD0-8FE9-654B008ACD1D}|GestionTM.csproj|c:\\users\\khalid_youssef\\desktop\\gestiontm\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{02B5BFBD-FC88-4BD0-8FE9-654B008ACD1D}|GestionTM.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{02B5BFBD-FC88-4BD0-8FE9-654B008ACD1D}|GestionTM.csproj|c:\\users\\khalid_youssef\\desktop\\gestiontm\\views\\shared\\_consultantlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{02B5BFBD-FC88-4BD0-8FE9-654B008ACD1D}|GestionTM.csproj|solutionrelative:views\\shared\\_consultantlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{02B5BFBD-FC88-4BD0-8FE9-654B008ACD1D}|GestionTM.csproj|c:\\users\\khalid_youssef\\desktop\\gestiontm\\models\\admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{02B5BFBD-FC88-4BD0-8FE9-654B008ACD1D}|GestionTM.csproj|solutionrelative:models\\admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{02B5BFBD-FC88-4BD0-8FE9-654B008ACD1D}|GestionTM.csproj|c:\\users\\khalid_youssef\\desktop\\gestiontm\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{02B5BFBD-FC88-4BD0-8FE9-654B008ACD1D}|GestionTM.csproj|solutionrelative:wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{02B5BFBD-FC88-4BD0-8FE9-654B008ACD1D}|GestionTM.csproj|c:\\users\\khalid_youssef\\desktop\\gestiontm\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{02B5BFBD-FC88-4BD0-8FE9-654B008ACD1D}|GestionTM.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{02B5BFBD-FC88-4BD0-8FE9-654B008ACD1D}|GestionTM.csproj|c:\\users\\khalid_youssef\\desktop\\gestiontm\\migrations\\20250109205139_first.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -29,63 +33,76 @@
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedHeight": 196,
-          "SelectedChildIndex": 0,
+          "DockedHeight": 216,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "_ValidateurLayout.cshtml",
-              "DocumentMoniker": "C:\\Users\\khalid_youssef\\Desktop\\GestionTM\\Views\\Shared\\_ValidateurLayout.cshtml",
-              "RelativeDocumentMoniker": "Views\\Shared\\_ValidateurLayout.cshtml",
-              "ToolTip": "C:\\Users\\khalid_youssef\\Desktop\\GestionTM\\Views\\Shared\\_ValidateurLayout.cshtml",
-              "RelativeToolTip": "Views\\Shared\\_ValidateurLayout.cshtml",
-              "ViewState": "AgIAABUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-01-10T10:42:20.214Z",
-              "EditorCaption": ""
+              "DocumentIndex": 3,
+              "Title": "site.css",
+              "DocumentMoniker": "C:\\Users\\khalid_youssef\\Desktop\\GestionTM\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "wwwroot\\css\\site.css",
+              "ToolTip": "C:\\Users\\khalid_youssef\\Desktop\\GestionTM\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "wwwroot\\css\\site.css",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABgAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-01-10T15:20:45.113Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\khalid_youssef\\Desktop\\GestionTM\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\khalid_youssef\\Desktop\\GestionTM\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAABwAAAAAAAAAAAAowDQAAAAHAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-09T20:41:19.557Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\khalid_youssef\\Desktop\\GestionTM\\appsettings.json",
-              "RelativeDocumentMoniker": "appsettings.json",
-              "ToolTip": "C:\\Users\\khalid_youssef\\Desktop\\GestionTM\\appsettings.json",
-              "RelativeToolTip": "appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-01-09T11:26:32.722Z",
+              "Title": "_ConsultantLayout.cshtml",
+              "DocumentMoniker": "C:\\Users\\khalid_youssef\\Desktop\\GestionTM\\Views\\Shared\\_ConsultantLayout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_ConsultantLayout.cshtml",
+              "ToolTip": "C:\\Users\\khalid_youssef\\Desktop\\GestionTM\\Views\\Shared\\_ConsultantLayout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_ConsultantLayout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-10T13:56:49.759Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Admin.cs",
-              "DocumentMoniker": "C:\\Users\\khalid_youssef\\Desktop\\GestionTM\\Models\\Admin.cs",
-              "RelativeDocumentMoniker": "Models\\Admin.cs",
-              "ToolTip": "C:\\Users\\khalid_youssef\\Desktop\\GestionTM\\Models\\Admin.cs",
-              "RelativeToolTip": "Models\\Admin.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAvAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\khalid_youssef\\Desktop\\GestionTM\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\khalid_youssef\\Desktop\\GestionTM\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Controllers\\HomeController.cs",
+              "ViewState": "AgIAAFEAAAAAAAAAAAAqwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-03T14:46:40.114Z"
+              "WhenOpened": "2025-01-10T13:48:03.743Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\khalid_youssef\\Desktop\\GestionTM\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\khalid_youssef\\Desktop\\GestionTM\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAABUBAAAAAAAAAAAqwKsAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-10T13:44:51.229Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\khalid_youssef\\Desktop\\GestionTM\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\khalid_youssef\\Desktop\\GestionTM\\Views\\Shared\\_Layout.cshtml*",
+              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml*",
+              "ViewState": "AgIAADQAAAAAAAAAAAAUwEYAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-10T13:41:12.334Z",
+              "EditorCaption": ""
             }
           ]
         },
         {
-          "DockedHeight": 34,
+          "DockedHeight": 14,
           "SelectedChildIndex": 1,
           "Children": [
             {
@@ -94,7 +111,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "20250109205139_first.cs",
               "DocumentMoniker": "C:\\Users\\khalid_youssef\\Desktop\\GestionTM\\Migrations\\20250109205139_first.cs",
               "RelativeDocumentMoniker": "Migrations\\20250109205139_first.cs",
